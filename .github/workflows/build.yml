@@ -1,0 +1,23 @@
+name: Build Project
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preparação e validação do projeto
+        run: sleep 50
+      - name: Criação de pacotes maven e/ou docker
+        run: sleep 18
+      - name: Avaliação do CheckMax
+        run: sleep 1
+      - name: Execução testes unidades e/ou integração e/ou sonar
+        run: sleep 4
+      - name: Publicação dos pacotes maven e/ou docker
+        run: sleep 47
+      - name: Análise do Xray
+        run: sleep 1
+      - name: Inclui avaliação prévia do Motor de Liberação ao resumo do build
+        run: sleep 50
+      - name: |
+          Declarative: Post Actions
+        run: sleep 2s
