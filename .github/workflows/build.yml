@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Preparação e validação do projeto
-        uses: arthurbmd/my-action@test/feat-1
+        uses: arthurbmd/my-action/prepare@test/feat-1
       - name: Criação de pacotes maven e/ou docker
         run: sleep 18
       - name: Avaliação do CheckMax
