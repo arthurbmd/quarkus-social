@@ -2,4 +2,4 @@ name: Build Project
 on: workflow_dispatch
 jobs:
   build:
-    uses: arthurbmd/my-action/.github/workflows/workflow-mvn.yml@test/feat-1
+    uses: arthurbmd/my-action/.github/workflows/workflow-mvn.yml
