@@ -1,7 +1,9 @@
 name: Build Project
 on: workflow_dispatch
+env:
+  token-acesso: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   build:
     uses: arthurbmd/my-action/.github/workflows/workflow-mvn.yml@test/feat-1
     with:
-      access-token: ${{ github.token }}
+      access-token: env.token-acesso
