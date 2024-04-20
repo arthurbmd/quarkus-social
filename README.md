@@ -1,5 +1,7 @@
 # quarkus-social
 
+This Project is an API of a fictional social media create to the course Aprenda Quarkus e Desenvolva API's RESTful PoderosasAprenda Quarkus e Desenvolva API's RESTful Poderosas by Dougllas Sousa
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
