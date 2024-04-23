@@ -1,0 +1,14 @@
+{ 
+    "config": {
+        "buildRunStaticValidation": true,
+        "buildCompile": true,
+        "buildRunUnitTests": true,
+        "buildRunIntegrationTests": true,
+        "buildRunSonar": true,
+        "buildPackage": true,
+        "buildDocker": true,
+        "buildPublish": true,
+        "buildDebug": false,
+        "buildAutodeploy": "des"
+    }
+}
