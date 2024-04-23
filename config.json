@@ -1,5 +1,5 @@
 { 
-    "config": {
+    "workflow": {
         "habilitarValidacaoEstatica": true,
         "habilitarConstrucao": true,
         "habilitarTestesUnidade": true,
