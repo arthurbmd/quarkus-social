@@ -1,14 +1,14 @@
 { 
     "config": {
-        "buildRunStaticValidation": true,
-        "buildCompile": true,
-        "buildRunUnitTests": true,
-        "buildRunIntegrationTests": true,
-        "buildRunSonar": true,
-        "buildPackage": true,
-        "buildDocker": true,
-        "buildPublish": true,
-        "buildDebug": false,
-        "buildAutodeploy": "des"
+        "habilitarValidacaoEstatica": true,
+        "habilitarConstrucao": true,
+        "habilitarTestesUnidade": true,
+        "habilitarTestesIntegracao": true,
+        "habilitarSonar": true,
+        "habilitarEmpacotamento": true,
+        "habilitarEmpacotamentoDocker": true,
+        "habilitarPublicacao": true,
+        "habilitarDebug": true,
+        "autodeploy": "des"
     }
 }
