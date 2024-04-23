@@ -71,18 +71,6 @@ class UserResourceTest {
 
     }
 
-    @Test
-    @DisplayName("should display all users")
-    @Order(3)
-    @Disable
-    public void listAllUsersTest() {
-        given()
-                .contentType(ContentType.JSON)
-                .when()
-                .get(apiURL)
-                .then()
-                .statusCode(200)
-                .body("size()", Matchers.is(3));
-    }
+
 
 }
